@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    display: none;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Knewave', cursive;
+    color: #ff1e56;
+    margin: 0;
+    text-align: center;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.header {
+    margin: 5%
+}
+
+.screen-issue {
+    display: none;
+}
+
+.refresh {
+    color: white;
+    font-size: 2rem;
+    background-color: #ff1e56;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.refresh:hover{
+    color: white;
+    text-decoration: none
+}
+
+.intro {
+    margin-left: 15vmax;
+}
+
+.closed {
+    color: white;
+    display: block;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 20%;
+}
+
+.instructions {
+    display: inline-block;
+}
+
+.settings {
+    display: inline-block;
+    margin-left: 0
+}
+
+.instructions,
+.settings,
+.start,
+.stop,
+.level,
+.expand,
+.compress {
+    color: white;
+    font-family: 'Knewave', cursive;
+    background-color: #ff1e56;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.expand:hover {
+    box-shadow: 0 0 0 1px #ff1e56;
+}
+
+.instructions:focus,
+.settings:focus,
+.expand:focus {
+    box-shadow: 0 0 0 3px #ff1e56;
+    outline: 0;
+}
+
+.level {
+    display: none;
+}
+
+.instruction-dialog {
+    display: none;
+}
+
+/* Game Element */
+.game {
+    height: 500px;
+}
+
+.game-size {
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    margin-top: 5%;
+}
+
+.compress {
+    display: none;
+}
+
+.start:focus,
+.stop:focus {
+    outline: 0;
+}
+
+.inactive {
+    background-color: midnightblue;
+}
+
+.score {
+    display: inline-block;
+}
+
+/* Feedback Form */
+.form-control {
+    border-radius: 0;
+    background-color: black;
+    margin-bottom: 4px;
+    color: #7fcd91;
+    font-weight: 900;
+    border: 0;
+}
+
+.form-control:focus {
+    background-color: black;
+    box-shadow: 0 0 0 0.2rem grey;
+    border-color: white;
+    color: white;
+}
+
+button {
+    margin: 5%;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ball</title>
+
+    <script>
+        window.addEventListener('load', () => {
+            document.querySelector("body").style.display = "block"
+        });
+
+    </script>
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&family=Knewave&family=Quicksand:wght@300&family=Ubuntu:wght@500&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <section class="header">
+        <h1>Ball</h1>
+
+    </section>
+
+
+    <main class="main">
+
+        <!--TODO-->
+
+        <!--Help and Settings section-->
+<!--
+        <section class="intro">
+
+            <button onclick="closing()" class="closed">X</button>
+
+            <button class="instructions">?</button>
+
+            <button class="settings"><i class="fas fa-cogs"></i></button>
+
+            <section class="instruction-dialog">
+            <h3>Stay inside the ball</h3>
+            </section>
+            
+            <section>
+                <button class="level">1</button>
+                <button class="level">2</button>
+                <button class="level">3</button>
+            </section>
+
+        </section>
+-->
+
+        <!--TODO-->
+        
+        <section class="screen-issue" style="text-align:center">
+        <h3>Your screen size is insufficient for the game</h3>
+            <h4>Please Use a screen larger than <h2>400 x 500</h2></h4>
+            
+            <h4>Once you have a sufficient screen size</h4>
+            <a href="/" class="refresh">Refresh</a>
+        </section>
+        
+
+        <section class="game">
+
+            
+        <section class="ins" style="text-align: center">
+            <h3>Stay inside the ball</h3>
+        </section>
+            
+            <div class="game-size">
+            <button class="expand"><i class="fas fa-expand"></i></button>
+            </div>
+            
+            <div class="control">
+                <button class="start inactive">Start</button>
+                <button class="stop ">Stop</button>
+
+                <div class="score"></div>
+
+            </div>
+
+            <canvas width="400" height="400">
+                Game displays here
+            </canvas>
+
+        </section>
+
+
+        <!--TODO-->
+
+        <!--Feedback form section-->
+        <!--
+        <section class="feedback">
+
+            <form class="form-signin container col-lg-6 col-md-8">
+                <label for="inputEmail" class="sr-only">Feedback</label>
+                <input type="text" class="form-control first-field" placeholder="Feedback" required>
+                <input type="text" class="form-control col-5" placeholder="Name" required>
+                <button type="submit" class="btn btn-dark">
+                    Submit
+                </button>
+            </form>
+
+        </section>
+-->
+
+    </main>
+
+    <!--onclick function-->
+    <script>
+        function closing() {
+            $(".intro").css("display", "none")
+        }
+
+    </script>
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
