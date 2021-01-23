@@ -1,2 +1,2 @@
 # ball
-A game named ball. ENJOY
+A simple canvas game. ENJOY
